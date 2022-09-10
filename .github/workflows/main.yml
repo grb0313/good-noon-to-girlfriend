@@ -1,11 +1,11 @@
-name: morning
+name: noon
 on:
   workflow_dispatch:
 
 jobs:
   send_message:
     runs-on: ubuntu-latest
-    name: send morning to your girlfriend
+    name: send noon to girlfriend
 
     steps:
     - name: checkout
